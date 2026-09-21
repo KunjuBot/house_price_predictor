@@ -44,8 +44,8 @@ pip install pandas scikit-learn matplotlib seaborn streamlit joblib
 
 ## 🚀 How to Run
 
-### Step 1: Train the Model (Optional)
-I have included a pre-trained model (`house_model.pkl`), but you can train your own! Run the training script to build the AI model from scratch.
+### Step 1: Train the Model
+Run the training script to build the AI model from scratch. This will download the dataset and train the Random Forest Regressor locally.
 ```bash
 python train.py
 ```
